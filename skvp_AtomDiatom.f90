@@ -665,7 +665,10 @@ CALL calculate_RMS_potential_expansion
 
 DO i = 1, n_open
         PRINT*, 'open channel ', i, &
-                ' j1 k1 j2 k2 = ', quant_mat(1,open_idx(i)), quant_mat(2,open_idx(i)), quant_mat(3,open_idx(i)), quant_mat(4,open_idx(i)), &
+                ' j1 k1 j2 k2 = ', quant_mat(1,open_idx(i)), &
+                quant_mat(2,open_idx(i)), &
+                quant_mat(3,open_idx(i)), &
+                quant_mat(4,open_idx(i)), &
                 ' kvec = ', kvec(i)
 ENDDO
 
