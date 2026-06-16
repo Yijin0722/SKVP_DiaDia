@@ -1,0 +1,37 @@
+!!! Input file for a SKVP calculation. For a description
+!!! of parameters, check the documentation. en_final = 4.0E-02
+
+&Run_Parameters
+ca_type = 'collision' 
+ca_spec = 1102
+ca_sym  = 'para'
+ca_nmd = 5
+ca_nest = 1
+r0 = 2.5E+01
+en_start = 0E-03, en_final = 9.185E-03, en_step = 1.8375E-03
+Jmin = 0, Jmax = 0
+/
+
+&Primitive_Basis
+pbasst(1) = 'R'   'bspl_fbr'   220  8  10.0E-01  50.0000E+00  0.0E+00
+pbasst(2) = 'th1'  'asleg_fbr'    4  2  0.0E+00  3.1415E+00  0.0E+00
+pbasst(3) = 'th2'  'asleg_fbr'    4  2  0.0E+00  3.1415E+00  0.0E+00
+pbasst(4) = 'phi1'  'exp'    3  1  0.0E+00  6.283185E+00  0.0E+00
+pbasst(5) = 'phi2'  'exp'    3  1  0.0E+00  6.283185E+00  0.0E+00
+/
+
+&System_Parameters
+mu_R = 1.8371695E+03, Brot = 2.772666709E-04
+/
+
+!&Potential_Parameters
+!lambda1_max = 6
+!lambda2_max = 6
+!m_max = 6
+!sym_pot1 = "even" !for para-para H2-H2
+!sym_pot2 = "even"
+
+
+
+/
+
