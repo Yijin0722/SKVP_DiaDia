@@ -6,7 +6,7 @@ F77FLAGS=-fopenmp -Og -fcheck=all -fbacktrace
 
 code: skvp_AtomDiatom
 
-objets=  mod_gen_parameters.o mod_bsplines.o cubic_spline.o module_skvp_AtomDiatom.o h4bmkp.o sub_potential_DJ.o Potential_Interface_3.o sub_basic_aux_mat_calcul.o skvp_AtomDiatom.o sub_potential_aux_mat_cacul.o
+objets=  mod_gen_parameters.o mod_bsplines.o cubic_spline.o module_skvp_AtomDiatom.o h4bmkp.o sub_potential_BMKP.o Potential_Interface_3.o sub_basic_aux_mat_calcul.o skvp_AtomDiatom.o sub_potential_aux_mat_cacul.o
 %.o: %.f90
 	${FC} ${FFLAGS} -c $<
 

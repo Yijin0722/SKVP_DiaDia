@@ -14,8 +14,8 @@ Jmin = 0, Jmax = 0
 
 &Primitive_Basis
 pbasst(1) = 'R'   'bspl_fbr'   220  8  10.0E-01  50.0000E+00  0.0E+00
-pbasst(2) = 'th1'  'asleg_fbr'    4  2  0.0E+00  3.1415E+00  0.0E+00
-pbasst(3) = 'th2'  'asleg_fbr'    4  2  0.0E+00  3.1415E+00  0.0E+00
+pbasst(2) = 'th1'  'asleg_fbr'    8  2  0.0E+00  3.1415E+00  0.0E+00
+pbasst(3) = 'th2'  'asleg_fbr'    8  2  0.0E+00  3.1415E+00  0.0E+00
 pbasst(4) = 'phi1'  'exp'    3  1  0.0E+00  6.283185E+00  0.0E+00
 pbasst(5) = 'phi2'  'exp'    3  1  0.0E+00  6.283185E+00  0.0E+00
 /
